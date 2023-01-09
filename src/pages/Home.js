@@ -1,5 +1,9 @@
 function Home(props) {
-    return <h1>Home</h1>;
+    return <div class="content">
+    <h2>Home</h2>
+    Welcome to my portfolio.
+    </div>
+    ;
   }
   
   export default Home;

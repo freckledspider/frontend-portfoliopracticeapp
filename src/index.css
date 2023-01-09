@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,89 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  font-size: 1.2em;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  color: white;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 5em;
+  font-weight: normal;
+  padding: 10px;
+  margin: 10px;
+  letter-spacing: -0.07em;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: normal;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+.navigation, .navigation a {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(43, 43, 43);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: rgb(172, 172, 172);
+}
+
+.navigation a {
+  padding: 20px;
+}
+
+.navigation a:hover {
+  background-color: rgb(35, 35, 35);
+  color:rgb(122, 122, 122);
+  transition: ease-in-out all .4s; 
+  -moz-transition: ease-in-out all .4s;
+  -webkit-transition: ease-in-out all .4s;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  letter-spacing: 0.09em;
+}
+
+a:hover {
+  color:rgb(122, 122, 122);
+}
+
+.content {
+  padding: 20px;
+}
+
+.footer {
+  background-image: linear-gradient(rgb(43, 43, 43), rgb(27, 27, 27));
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+img {
+  width: 400px;
 }
